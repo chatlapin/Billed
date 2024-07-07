@@ -37,6 +37,7 @@ export default class Login {
 
   }
 
+  //fix the typo from "employee" to "admin"
   handleSubmitAdmin = e => {
     e.preventDefault()
     const user = {
