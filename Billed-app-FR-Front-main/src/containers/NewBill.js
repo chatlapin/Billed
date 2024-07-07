@@ -17,9 +17,18 @@ export default class NewBill {
   }
   handleChangeFile = e => {
     e.preventDefault()
-    const file = this.document.querySelector(`input[data-testid="file"]`).files[0]
+    //const file = this.document.querySelector(`input[data-testid="file"]`).files[0]
+    const fileInput = this.document.querySelector(`input[data-testid="file"]`)
+    const file = fileInput.files[0]
+    const filteType = file.type.split("/")
+    if (filteType[0] !== "image") {
+      alert("Please choose an image file!")
+      fileInput.value = ""
+      return;
+    }
     const filePath = e.target.value.split(/\\/g)
-    const fileName = filePath[filePath.length-1]
+    //const fileName = filePath[filePath.length-1]
+    const fileName = filePath[filePath.length - 1]
     const formData = new FormData()
     const email = JSON.parse(localStorage.getItem("user")).email
     formData.append('file', file)
@@ -31,9 +40,10 @@ export default class NewBill {
         data: formData,
         headers: {
           noContentType: true
-        }
+        },
       })
-      .then(({fileUrl, key}) => {
+      //.then(({fileUrl, key}) => {
+        .then(({ fileUrl, key }) => {
         console.log(fileUrl)
         this.billId = key
         this.fileUrl = fileUrl
