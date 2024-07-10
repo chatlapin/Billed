@@ -46,18 +46,24 @@ describe("Given I am connected as an employee", () => {
       const billsDashboard = new Bills({
         document, onNavigate, store, localStorage: window.localStorage
       })
+
       $.fn.modal = jest.fn();
       const iconEyes = screen.getAllByTestId('icon-eye')
-      iconEyes.forEach(icon => {
+      iconEyes.forEach(async (icon) => {
         const handleClickIconEye = jest.fn(
           billsDashboard.handleClickIconEye(icon)
         );
         icon.addEventListener('click', handleClickIconEye)
         fireEvent.click(icon)
         expect(handleClickIconEye).toHaveBeenCalled()
+        //const modal = await waitFor(screen.getByRole("dialog"));
+        //expect(modal).toBeTruthy();
+        //expect(screen.getByText("Justificatif")).toBeTruthy();
       })
 
     })
+
+
 
     test("When click on new bill button, Then new bill page should be rendered", async () => {
       //const BillsDashBoard = new Bills({ document, onNavigate, store, localStorage: window.localStorage });
@@ -70,6 +76,14 @@ describe("Given I am connected as an employee", () => {
       fireEvent.click(newBillButton)
       //await waitFor(() => screen.getByText('Envoyer une note de frais'))
       expect(screen.getByText('Envoyer une note de frais')).toBeTruthy()
+    })
+
+    test("When I enter the page, then getBills function should be called", async () => {
+      const billsDashboard = new Bills({
+        document, onNavigate, store, localStorage: window.localStorage
+      })
+      const billsLoaded = await billsDashboard.getBills();
+      expect(billsLoaded.length).toBe(bills.length);
     })
 
   })
