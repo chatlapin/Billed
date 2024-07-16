@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "jest --coverage --noStackTrace --silent"
+    "test": "jest --coverage --noStackTrace --silent",
+     "test2": "jest --coverage --noStackTrace"
   },
   "jest": {
     "verbose": false,
@@ -33,4 +34,4 @@
     "jest-environment-jsdom": "^27.4.6",
     "jest-html-reporter": "^3.1.3"
   }
-}
+  }
