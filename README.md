@@ -119,6 +119,12 @@ $jest src/__tests__/your_test_file.js
 
 Billed-app-FR-Front-main/src/containers/Dashboard.js
 
+indent error
+
+ this.counter ++
+ 
+ this.counter++
+
 Billed-app-FR-Front-main/src/containers/Login.js
 
 Billed-app-FR-Front-main/src/containers/NewBill.js
