@@ -121,10 +121,19 @@ Billed-app-FR-Front-main/src/containers/Dashboard.js
 
 indent error
 
- this.counter ++
- 
- this.counter++
+this.counter++
 
+$(`#arrow-icon${this.index}`).css({ transform: 'rotate(0deg)' })
+
+$(`#arrow-icon${this.index}`).css({ transform: 'rotate(90deg)' })
+
+bills.forEach(bill => {
+      $(`#open-bill${bill.id}`).click((e) => this.handleEditTicket(e, bill, bills))
+
+      change to
+      
+      $(`#status-bills-container${this.index}  #open-bill${bill.id}`).click((e) => this.handleEditTicket(e, bill, bills))
+      
 Billed-app-FR-Front-main/src/containers/Login.js
 
 Billed-app-FR-Front-main/src/containers/NewBill.js
