@@ -20,6 +20,21 @@ email: e.target.querySelector(`input[data-testid="employee-email-input"]`).value
 email: e.target.querySelector(`input[data-testid="admin-email-input"]`).value,
    password: e.target.querySelector(`input[data-testid="admin-password-input"]`).value,
 
+➡ JEST TEST
+
+Billed-app-FR-Front-main/src/containers/Dashboard.js
+
+Billed-app-FR-Front-main/src/containers/Login.js
+
+Billed-app-FR-Front-main/src/containers/NewBill.js
+
+Billed-app-FR-Front-main/src/views/BillsUI.js
+
+Billed-app-FR-Front-main/src/views/BillsUI.js
+
+<img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
+
+
 ➡ Bug - hunt :
 
 Gestion des extensions valides pour le justificatif.
