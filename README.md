@@ -20,21 +20,6 @@ email: e.target.querySelector(`input[data-testid="employee-email-input"]`).value
 email: e.target.querySelector(`input[data-testid="admin-email-input"]`).value,
    password: e.target.querySelector(`input[data-testid="admin-password-input"]`).value,
 
-➡ JEST TEST
-
-Billed-app-FR-Front-main/src/containers/Dashboard.js
-
-Billed-app-FR-Front-main/src/containers/Login.js
-
-Billed-app-FR-Front-main/src/containers/NewBill.js
-
-Billed-app-FR-Front-main/src/views/BillsUI.js
-
-Billed-app-FR-Front-main/src/views/BillsUI.js
-
-<img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
-
-
 ➡ Bug - hunt :
 
 Gestion des extensions valides pour le justificatif.
@@ -108,6 +93,7 @@ Lancez l'application :
 $ live-server
 
 Puis allez à l'adresse : `http://127.0.0.1:8080/`
+<img width="807" alt="Screenshot 2024-09-12 at 19 31 11" src="https://github.com/user-attachments/assets/a11f4838-1f54-44a2-92cf-81f52b06ce4f">
 
 
 ## Comment lancer tous les tests en local avec Jest ?
@@ -128,6 +114,20 @@ $jest src/__tests__/your_test_file.js
 ## Comment voir la couverture de test ?
 
 `http://127.0.0.1:8080/coverage/lcov-report/`
+
+➡ JEST TEST
+
+Billed-app-FR-Front-main/src/containers/Dashboard.js
+
+Billed-app-FR-Front-main/src/containers/Login.js
+
+Billed-app-FR-Front-main/src/containers/NewBill.js
+
+Billed-app-FR-Front-main/src/views/BillsUI.js
+
+Billed-app-FR-Front-main/src/views/BillsUI.js
+
+<img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
 
 ## Comptes et utilisateurs :
 
