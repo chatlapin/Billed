@@ -1,4 +1,4 @@
-Bug - report :
+➡ Bug - report :
 
 Tri par dates décroissantes des notes de frais.
 Connexion à la page administrateur.
