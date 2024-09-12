@@ -136,11 +136,33 @@ bills.forEach(bill => {
       
 Billed-app-FR-Front-main/src/containers/Login.js
 
+ this.document.body.style.backgroundColor = "#fff"
+
+ document.body.style.backgroundColor = "#fff"
+
+    .login(JSON.stringify({
+          email: user.email,
+          password: user.password,
+        })).then(({ jwt }) => {
+          localStorage.setItem('jwt', jwt)
+        })
+
 Billed-app-FR-Front-main/src/containers/NewBill.js
+
+ const fileInput = this.document.querySelector(`input[data-testid="file"]`)
+    const file = fileInput.files[0]
+    const filteType = file.type.split("/")
+    if (filteType[0] !== "image") {
+      alert("Please choose an image file!")
+      fileInput.value = ""
+      return;
+    }    
 
 Billed-app-FR-Front-main/src/views/BillsUI.js
 
 Billed-app-FR-Front-main/src/views/NewBillUI.js
+
+ <input required type="file" class="form-control blue-border" data-testid="file" accept="image/*" />
 
 <img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
 
