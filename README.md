@@ -115,6 +115,10 @@ $jest src/__tests__/your_test_file.js
 
 `http://127.0.0.1:8080/coverage/lcov-report/`
 
+<img width="884" alt="Screenshot 2024-09-12 at 19 44 52" src="https://github.com/user-attachments/assets/572d7b38-1ec1-4ca1-983c-066aa0473824">
+
+
+
 ➡ JEST TEST
 
 Billed-app-FR-Front-main/src/containers/Dashboard.js
