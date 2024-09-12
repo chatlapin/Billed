@@ -1,13 +1,21 @@
 ➡ Bug - report :
 
 Tri par dates décroissantes des notes de frais.
+
 Connexion à la page administrateur.
+
 ➡ Bug - hunt :
+
 Gestion des extensions valides pour le justificatif.
+
 Gestion de l'ouverture des notes de frais côté administrateur.
+
 ➡ Ajout de tests unitaires et d'intégrations :
+
 Bills.js
+
 NewBill.js
+
 ➡ Rédaction d'un plan de test E2E pour le parcours employé
 
 
