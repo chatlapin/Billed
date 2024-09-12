@@ -3,6 +3,9 @@
 ➡ Bug - report :
 
 Tri par dates décroissantes des notes de frais.
+Billed-app-FR-Front-main/src/views/BillsUI.js
+return (data && data.length) ? data.map(bill => row(bill)).join("") : ""
+return (data && data.length) ? data.sort((a, b) => new Date(b.date) - new Date(a.date)).map(bill => row(bill)).join("") : ""
 
 Connexion à la page administrateur.
 
