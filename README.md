@@ -125,7 +125,7 @@ Billed-app-FR-Front-main/src/containers/NewBill.js
 
 Billed-app-FR-Front-main/src/views/BillsUI.js
 
-Billed-app-FR-Front-main/src/views/BillsUI.js
+Billed-app-FR-Front-main/src/views/NewBillUI.js
 
 <img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
 
