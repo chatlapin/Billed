@@ -89,6 +89,7 @@ npm run run:dev
 ### Accéder à l'API :
 
 L'api est accessible sur le port `5678` en local, c'est à dire `http://localhost:5678`
+<img width="327" alt="Screenshot 2024-09-12 at 19 30 08" src="https://github.com/user-attachments/assets/367c9b09-f9e7-473a-a10c-5a3fba623903">
 
 ### étape 2 - Lancer le frontend :
 
