@@ -78,6 +78,8 @@ $ npm install -g live-server
 Lancez l'application :
 $ live-server
 
+erreur: click "GoLive" on VSCode
+
 Puis allez à l'adresse : `http://127.0.0.1:8080/`
 <img width="807" alt="Screenshot 2024-09-12 at 19 31 11" src="https://github.com/user-attachments/assets/a11f4838-1f54-44a2-92cf-81f52b06ce4f">
 
