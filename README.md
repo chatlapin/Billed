@@ -2,23 +2,13 @@
 
 ➡ Bug - report :
 
-Tri par dates décroissantes des notes de frais.
+BillsUI: Tri par dates décroissantes des notes de frais.
 
-Billed-app-FR-Front-main/src/views/BillsUI.js
+Login: Connexion à la page administrateur.
 
-return (data && data.length) ? data.map(bill => row(bill)).join("") : ""
+NewBill: Justificatif affichable, images
 
-return (data && data.length) ? data.sort((a, b) => new Date(b.date) - new Date(a.date)).map(bill => row(bill)).join("") : ""
-
-Connexion à la page administrateur.
-
-Billed-app-FR-Front-main/src/containers/Login.js
-
-email: e.target.querySelector(`input[data-testid="employee-email-input"]`).value,
-   password: e.target.querySelector(`input[data-testid="employee-password-input"]`).value,
-   
-email: e.target.querySelector(`input[data-testid="admin-email-input"]`).value,
-   password: e.target.querySelector(`input[data-testid="admin-password-input"]`).value,
+Dashboard: Clickable, items-list
 
 ➡ Bug - hunt :
 
