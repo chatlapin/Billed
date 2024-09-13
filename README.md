@@ -102,8 +102,6 @@ $jest src/__tests__/your_test_file.js
 
 ## Comment voir la couverture de test ?
 
-https://jestjs.io/docs/using-matchers
-
 `http://127.0.0.1:8080/coverage/lcov-report/`
 
 <img width="884" alt="Screenshot 2024-09-12 at 19 44 52" src="https://github.com/user-attachments/assets/572d7b38-1ec1-4ca1-983c-066aa0473824">
@@ -168,6 +166,8 @@ Billed-app-FR-Front-main/src/views/NewBillUI.js
  <input required type="file" class="form-control blue-border" data-testid="file" accept="image/*" />
 
 <img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
+
+https://jestjs.io/docs/using-matchers
 
 ## Comptes et utilisateurs :
 
