@@ -6,15 +6,11 @@ BillsUI: Tri par dates décroissantes des notes de frais.
 
 Login: Connexion à la page administrateur.
 
-NewBill: Justificatif affichable, images
-
-Dashboard: Clickable, items-list
-
 ➡ Bug - hunt :
 
-Gestion des extensions valides pour le justificatif.
+NewBill: Gestion des extensions valides pour le justificatif, Justificatif affichable, images
 
-Gestion de l'ouverture des notes de frais côté administrateur.
+Dashboard: Gestion de l'ouverture des notes de frais côté administrateur, Clickable, items-list
 
 ➡ Ajout de tests unitaires et d'intégrations :
 
