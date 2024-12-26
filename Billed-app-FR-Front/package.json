@@ -1,7 +1,6 @@
 {
   "scripts": {
     "test": "jest --coverage --noStackTrace --silent",
-    "test2": "jest --coverage --noStackTrace",
     "start": "http-server -p 8080"
   },
   "jest": {
