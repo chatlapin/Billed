@@ -1,94 +1,65 @@
+# Billed
 
-## L'architecture du projet :
-Ce projet, dit frontend, est connecté à un service API backend que vous devez aussi lancer en local.
+    Projet fictif de formation n°06/11 | OpenClassrooms
 
-Le projet backend se trouve ici: https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-back
+**Landing page**
 
-## Organiser son espace de travail :
-Pour une bonne organization, vous pouvez créer un dossier bill-app dans lequel vous allez cloner le projet backend et par la suite, le projet frontend:
+<kbd>![landing page](./Billed.png)</kbd>
 
-Clonez le projet backend dans le dossier bill-app :
-```
-$ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Back.git
-```
+**Rapport du test de couverture obtenue**
 
-```
-bill-app/
-   - Billed-app-FR-Back
-```
+<kbd>![landing page](./rapports%20tests%20%2B%20couverture/billed_rapports_tests%2Bcouverture.png)</kbd>
 
-Clonez le projet frontend dans le dossier bill-app :
-```
-$ git clone https://github.com/OpenClassrooms-Student-Center/Billed-app-FR-Front.git
-```
+> PROBLEMATIQUE
 
-```
-bill-app/
-   - Billed-app-FR-Back
-   - Billed-app-FR-Front
-```
+L'application web comporte des erreurs (majeures et mineures) sur le parcours employé qui doivent être analysées et déboguées.
 
-## Comment lancer l'application en local ?
+> BESOIN
 
-### étape 1 - Lancer le backend :
+Tester et débugger pour fiabiliser et améliorer le parcours employé.
 
-Suivez les indications dans le README du projet backend.
+## Livrables
 
-### étape 2 - Lancer le frontend :
+- [x] Correction des erreurs détectées sur les parcours Employé et Administrateur
+- [x] Tests unitaires
+- [x] Tests d'intégration GET + POST
+- [x] Tests fonctionnels : plan de tests End-to-End du parcours employé
 
-Allez au repo cloné :
-```
-$ cd Billed-app-FR-Front
-```
+## Ressources fournies
 
-Installez les packages npm (décrits dans `package.json`) :
-```
-$ npm install
-```
+- [Repo du code](https://github.com/OpenClassrooms-Student-Center/Billed-app-FR)
+- [Description des fonctionnalités](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P7+Tests/Billed+-+Description+des+fonctionnalite%CC%81s.pdf)
+- [Kanban debugs & tests to do](https://www.notion.so/a7a612fc166747e78d95aa38106a55ec?v=2a8d3553379c4366b6f66490ab8f0b90)
+- [Plan de tests End-to-End du parcours Administrateur RH](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P7+Tests/Billed+-+E2E+parcours+administrateur.pdf)
 
-Installez live-server pour lancer un serveur local :
-```
-$ npm install -g live-server
-```
+## Installer
 
-Lancez l'application :
-```
-$ live-server
-```
+### How to run the App localy
 
-Puis allez à l'adresse : `http://127.0.0.1:8080/`
+*clone the project* `$ git clone https://github.com/OpenClassrooms-Student-Center/P6-front-end-testing.git`
 
+*go to the cloned repo* `$ cd P6-front-end-testing`
 
-## Comment lancer tous les tests en local avec Jest ?
+*install npm packages (described in package.json)* `$ npm install`
 
-```
-$ npm run test
-```
+*install live-server to run a local server* `$ npm install -g live-server`
 
-## Comment lancer un seul test ?
+*launch the App* `$ live-server`
 
-Installez jest-cli :
+*then go to* `http://127.0.0.1:8080/`
 
-```
-$npm i -g jest-cli
-$jest src/__tests__/your_test_file.js
-```
+### How to run all tests with Jest
 
-## Comment voir la couverture de test ?
+`$ npm run test`
+
+### How to run a single test
+
+*install jest-cli* `$npm i -g jest-cli`
+*then* 
+`$jest src/__tests__/your_test_file.js`
+
+### How to see test coverage
 
 `http://127.0.0.1:8080/coverage/lcov-report/`
 
-## Comptes et utilisateurs :
 
-Vous pouvez vous connecter en utilisant les comptes:
-
-### administrateur : 
-```
-utilisateur : admin@test.tld 
-mot de passe : admin
-```
-### employé :
-```
-utilisateur : employee@test.tld
-mot de passe : employee
-```
