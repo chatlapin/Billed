@@ -155,8 +155,6 @@ Billed-app-FR-Front-main/src/views/NewBillUI.js
 
  <input required type="file" class="form-control blue-border" data-testid="file" accept="image/*" />
 
-<img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
-
 https://jestjs.io/docs/using-matchers
 
 ## Comptes et utilisateurs :
