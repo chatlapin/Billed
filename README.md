@@ -104,16 +104,6 @@ $jest src/__tests__/your_test_file.js
 
 `http://127.0.0.1:8080/coverage/lcov-report/`
 
-<img width="884" alt="Screenshot 2024-09-12 at 19 44 52" src="https://github.com/user-attachments/assets/572d7b38-1ec1-4ca1-983c-066aa0473824">
-
-<img width="1091" alt="Screenshot 2024-09-12 at 19 48 35" src="https://github.com/user-attachments/assets/4172287e-0a1d-48b9-89d6-b41f2a2095b9">
-
-<img width="884" alt="Screenshot 2024-09-12 at 19 44 52" src="https://github.com/user-attachments/assets/c9e65ef3-f701-4b22-9a20-fad622cdfa89">
-
-<img width="1091" alt="Screenshot 2024-09-12 at 19 48 49" src="https://github.com/user-attachments/assets/4313f56d-772a-4ec3-8c16-f73ca8365b8a">
-
-<img width="1092" alt="Screenshot 2024-09-12 at 19 49 02" src="https://github.com/user-attachments/assets/85cfde80-db2b-496f-94be-ded32647f572">
-
 ➡ JEST TEST
 
 https://jestjs.io/docs/using-matchers
@@ -164,8 +154,6 @@ Billed-app-FR-Front-main/src/views/BillsUI.js
 Billed-app-FR-Front-main/src/views/NewBillUI.js
 
  <input required type="file" class="form-control blue-border" data-testid="file" accept="image/*" />
-
-<img width="467" alt="JEST TEST" src="https://github.com/user-attachments/assets/fcfd6d1b-bf62-45d9-a23f-7204ea22df5f">
 
 https://jestjs.io/docs/using-matchers
 
